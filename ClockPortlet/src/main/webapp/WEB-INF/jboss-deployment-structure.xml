@@ -1,0 +1,10 @@
+<jboss-deployment-structure>
+	<deployment>
+		<dependencies>
+		<module name="javax.portlet" slot="main" export="true"/>
+		<module name="org.apache.pluto.container.om" export="true"/>
+		<module name="org.apache.pluto.container.driver" export="true"/>
+		<module name="org.apache.pluto.tags" export="true"/>
+		</dependencies>
+	</deployment>
+</jboss-deployment-structure>
