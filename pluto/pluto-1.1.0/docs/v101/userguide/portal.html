@@ -1,0 +1,767 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Pluto - 
+  User Guide: Pluto Portal Driver</title>
+    <style type="text/css" media="all">
+      @import url("../../css/maven-base.css");
+      @import url("../../css/maven-theme.css");
+      @import url("../../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../../css/print.css" type="text/css" media="print" />
+          <meta name="author" content="
+  Nick Lothian" />
+          <meta name="author" content="
+  David DeWolf" />
+          <meta name="author" content="
+  Craig Doremus" />
+          <meta name="author" content="
+  ZHENG Zhong" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="" id="bannerLeft">
+    
+                                            <img src="../../images/apache-portals.gif" alt="" />
+    
+            </a>
+                          <span id="bannerRight">
+    
+                                            <img src="../../images/banner.png" alt="" />
+    
+            </span>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+            <div class="xleft">
+        Last Published: 02/11/2007
+                      </div>
+            <div class="xright">      <a href="http://jcp.org/en/jsr/detail?id=168">JSR 168</a>
+          |
+          <a href="http://jcp.org/en/jsr/detail?id=286">JSR 286</a>
+          |
+          <a href="http://people.apache.org/~zheng/pluto/chinese/">Chinese Translation</a>
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+                   <h5>The Pluto Project</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../../index.html">About Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../mission.html">Mission</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../download.html">Download</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../news.html">News</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../faq.html">FAQ</a>
+        </li>
+              
+    <li class="none">
+              <a href="http://wiki.apache.org/portals/Pluto">Wiki</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../powered.html">Powered By Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../get-involved.html">Get Involved</a>
+        </li>
+          </ul>
+          <h5>Pluto 1.0.1</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../../v101/install.html">Getting Started</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v101/resources.html">Resources</a>
+        </li>
+              
+          
+              
+            
+            
+      
+              
+            <li class="expanded">
+              <a href="../../v101/userguide/index.html">User Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <strong>Portal Guide</strong>
+        </li>
+                  
+    <li class="none">
+              <a href="../../v101/userguide/testsuite.html">Testsuite Guide</a>
+        </li>
+              </ul>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../../v101/developer/index.html">Developer Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../../v101/developer/arch.html">Architecture</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../v101/developer/subversion.html">Obtaining Source</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../v101/developer/build_source.html">Building From Source</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../v101/developer/integrate.html">Integrating</a>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Pluto 1.1</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../../v11/getting-started.html">Getting Started</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/deploying.html">Deploying</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/app-servers.html">App Servers</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/architecture.html">Architecture</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/resources.html">Resources</a>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../../v11/subprojects.html">Subprojects</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../../pluto-container/index.html">Portlet Container</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-taglib/index.html">Portlet Tags</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-portal-driver/index.html">Portal Driver</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-portal/index.html">Portal</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-testsuite/index.html">Testsuite</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-descriptor-api/index.html">Descriptor API</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-descriptor-impl/index.html">Descriptor Impl</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-optional-services/index.html">Optional Services</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../maven-pluto-plugin/index.html">Maven Plugin</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-ant-tasks/index.html">Ant Tasks</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-util/index.html">Util</a>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Project Documentation</h5>
+        <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+              <a href="../../project-info.html">Project Information</a>
+              </li>
+          </ul>
+                                       <a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy">
+            <img alt="Built by Maven" src="../../images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+  
+  
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        
+
+
+
+<a name="User Guide: Pluto 1.0.1 Portal Driver"></a><div class="section"><h2>User Guide: Pluto 1.0.1 Portal Driver</h2>
+  <p>
+  <ul>
+  <li><A href="#Limitations">Limitations</A></li>
+  <li><A href="#Configuration">Configuration</A></li>
+  <li><A href="#Defining_the_Portal_Layout">Defining the Portal Layout</A></li>
+  <li><A href="#Advanced_Customization">Advanced Customization</A></li>
+  <li><A href="#Internationalization">Internationalization</A></li>
+  <li><A href="#Further_Information">Further Information</A></li>
+  </ul>
+  
+</div>
+
+
+<a name="Limitations"></a><div class="section"><h2>Limitations</h2>
+    
+       The Pluto Portal is intended to provide an example implementation of
+       how to integrate Pluto into a portal. Additionally, it may be used for
+       the development of compliant portlets.  In some places it lacks the 
+       flexibility a true portal supplies. The portal is not designed for 
+       maximum performance, but rather simplicity.
+     
+
+     
+       To learn how to embed Pluto in your own portal, see the
+	   &quot;<a href="../developer/integrate.html">Integration Guide</a>&quot; document.
+</div>
+
+<a name="Configuration"></a><div class="section"><h2>Configuration</h2>
+  <a name="Default Configuration"></a><div class="section"><h3>Default Configuration</h3>
+    
+      Upon installation of the binary distribution of Pluto 1.0.1, the portal
+      driver is made available at <code>http://localhost:8080/pluto/portal</code>.
+      The default installation is configured with a portal page which
+      contains two instances of the testsuite portlet and an administration.
+      portlet for installing custom portlets and viewing the repositories.  
+      This configuration is also the default for installations completed from the source distribution
+      (or Subversion repository) and deployed using the Pluto deploy tool.
+    
+    
+      <table class="bodyTable">
+      <caption><B>Default Configuration for Binary Distributions:</B></caption>
+      <tr class="a"><th>Configuration</th>
+          <th>Platform</th>
+          <th>Value</th><th>Description</th></tr>
+      <tr class="b"><td>Installation Directory</td>
+          <td>All</td>
+          <td>&lt;PLUTO_HOME&gt;</td>
+          <td>The directory to which you unarchived the distribution</td></tr>
+      <tr class="a"><td>Startup Scripts</td>
+          <td>*nix</td>
+          <td>&lt;PLUTO_HOME&gt;/bin/startup.sh</td>
+          <td>The script used to startup the portal driver</td></tr>
+      <tr class="b"><td>Startup Scripts</td>
+          <td>Windows</td>
+          <td>&lt;PLUTO_HOME&gt;/bin/startup.bat</td>
+          <td>The script used to startup the portal driver</td></tr>
+      <tr class="a"><td>Context Configuration</td>
+          <td>All</td>
+          <td>&lt;PLUTO_HOME&gt;/conf/Catalina/localhost/pluto.xml</td>
+          <td>The Tomcat Context Configuration file</td></tr>
+      </table>
+    
+
+    
+      <table class="bodyTable">
+      <caption><B>Default Configuration for Source Distributions:</B></caption>
+      <tr class="b"><th>Configuration</th>
+          <th>Platform</th>
+          <th>Value</th><th>Description</th></tr>
+      <tr class="a"><td>Installation Directory</td>
+          <td>All</td>
+          <td>${maven.tomcat.home}</td>
+          <td>The tomcat installation directory to which pluto has been installed</td></tr>
+      <tr class="b"><td>Startup Scipts</td>
+          <td>*nix</td>
+          <td>${maven.tomcat.home}/bin/startup.sh</td>
+          <td>The script used to startup the portal driver</td></tr>
+      <tr class="a"><td>Startup Scipts</td>
+          <td>Windows</td>
+          <td>${maven.tomcat.home}/bin/startup.bat</td>
+          <td>The script used to startup the portal driver</td></tr>
+      <tr class="b"><td>Context Configuration</td>
+          <td>Tomcat 5.5</td>
+          <td>${maven.tomcat.home}/conf/Catalina/localhost/pluto.xml</td>
+          <td>The Tomcat Context Configuration file</td></tr>
+      </table>
+    
+
+    <p>When the Pluto Portal is first installed, it is made available at 
+       the address http://localhost:8080/pluto/portal/.</p>
+
+				<p>This location can be customized, using standard Tomcat functionality. To modify the <i>pluto</i> part of the
+				location, alter the path mapping in pluto's context configuration file <i>pluto.xml</i></p>
+
+				<p>Under Tomcat 5.5, pluto.xml will be located
+				in the ${TOMCAT_HOME}/conf/Catalina/ directory. </p>
+
+				<p>In order to modify the context Pluto is running under, modify the <i>path</i> attribute:</p>
+				<p>
+				<b>Before:</b>
+				<div class="source"><pre>
+	&lt;Context path=&quot;/pluto&quot; docBase=&quot;pluto&quot; crossContext=&quot;true&quot;&gt;
+	&lt;/Context&gt;
+				</pre></div>
+				</p>
+				<p><b>After:</b>
+				<div class="source"><pre>
+	&lt;Context path=&quot;/newlocation&quot; docBase=&quot;pluto&quot; crossContext=&quot;true&quot;&gt;
+	&lt;/Context&gt;
+				</pre></div>
+				</p>
+				
+				<p>You might also need to modify host.name and portletcontainer.uniquename in 
+				${TOMCAT_HOME}/webapps/pluto/WEB-INF/config/services/ConfigService.properties.
+				</p>
+
+				<p>After this modification (and restarting Tomcat),
+				the Pluto Portal will be available at the address http://servername/newlocation/portal/.
+				Further information on customizing the context configuration is available for
+				<a href="http://jakarta.apache.org/tomcat/tomcat-5.5-doc/config/context.html">Tomcat 5.5</a>.
+				</p>
+
+				<p>To modify the <i>portal</i> part of the location, alter the <i>url-pattern</i> for the
+				<i>pluto</i> servlet. This mapping can be found in the <i>web.xml</i> configuration file
+				for the Pluto web application.</p>
+				<p>
+				<b>Before:</b>
+				<div class="source"><pre>
+    &lt;servlet-mapping&gt;
+       &lt;servlet-name&gt;pluto&lt;/servlet-name&gt;
+       &lt;url-pattern&gt;/portal/*&lt;/url-pattern&gt;
+    &lt;/servlet-mapping&gt;
+				</pre></div>
+				</p>
+				<p>
+				<b>After:</b>
+				<div class="source"><pre>
+    &lt;servlet-mapping&gt;
+       &lt;servlet-name&gt;pluto&lt;/servlet-name&gt;
+       &lt;url-pattern&gt;/app/*&lt;/url-pattern&gt;
+    &lt;/servlet-mapping&gt;
+				</pre></div>
+				</p>
+				
+				<p>You will also need to modify servlet.insecure in ${TOMCAT_HOME}/webapps/pluto/WEB-INF/config/services/ConfigService.properties.
+				</p>
+				
+				<p>After these modifications (and restarting Tomcat),
+				the Pluto Portal will be available at the address http://servername/newlocation/app/
+				(assuming that the previous modification was also applied).
+				</p>
+			</div>
+
+			<a name="Registering Portlets for use"></a><div class="section"><h3>Registering Portlets for use</h3>
+				<p>In order to use a Portlet in the Pluto Portal it needs to be registered. The Pluto Portal
+				keeps page registrations in a file named <i>portletentityregistry.xml</i> in the directory
+				${TOMCAT_HOME}/webapps/pluto/data.</p>
+
+				<p>By default, this file looks like this:
+				<div class="source"><pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;portlet-entity-registry&gt;
+    &lt;application id=&quot;3&quot;&gt;
+        &lt;definition-id&gt;testsuite&lt;/definition-id&gt;
+        &lt;portlet id=&quot;1&quot;&gt;
+            &lt;definition-id&gt;testsuite.TestPortlet1&lt;/definition-id&gt;
+            &lt;preferences&gt;
+                &lt;pref-name&gt;TestName4&lt;/pref-name&gt;
+                &lt;pref-value&gt;TestValue4&lt;/pref-value&gt;
+                &lt;read-only&gt;true&lt;/read-only&gt;
+            &lt;/preferences&gt;
+        &lt;/portlet&gt;
+    &lt;/application&gt;
+    &lt;application id=&quot;4&quot;&gt;
+        &lt;definition-id&gt;testsuite&lt;/definition-id&gt;
+        &lt;portlet id=&quot;1&quot;&gt;
+            &lt;definition-id&gt;testsuite.TestPortlet2&lt;/definition-id&gt;
+            &lt;preferences&gt;
+                &lt;pref-name&gt;TestName4&lt;/pref-name&gt;
+                &lt;pref-value&gt;TestValue4&lt;/pref-value&gt;
+                &lt;read-only&gt;true&lt;/read-only&gt;
+            &lt;/preferences&gt;
+        &lt;/portlet&gt;
+    &lt;/application&gt;
+&lt;/portlet-entity-registry&gt;
+				</pre></div>
+				</p>
+				<p>Each &lt;application&gt; tag defines one application (corresponding to one web-app on the
+				portal container), which can contain multiple &lt;portlet&gt; tags.
+				The &quot;id&quot; attribute in this tag identifies the application, and it does not need to be numeric.</p>
+
+				<p>The &lt;definition-id&gt; tag within the &lt;application&gt; refers to the name of the
+				web-app that contains the portlets in this application.</p>
+
+				<p>Each &lt;portlet&gt; tag defines one portlet. The &quot;id&quot;
+				attribute in this tag identifies the portlet. Note that the application id concatenated with the portlet
+				id will be mapped to the &quot;value&quot; attribute in the &lt;proprety&gt; tag in pageregistry.xml
+				(which is explained later).</p>
+
+				<p>Each &lt;preferences&gt; tag within the &lt;portlet&gt; tag defines name/value pairs for
+				the PorletPreferences.</p>
+
+				<p>In the example above two Portlet applications are made available to the portal with the
+				ids of &quot;3&quot; and &quot;4&quot;. Both happen to point to the same webapp (<tt>&lt;definition-id&gt;testsuite&lt;/definition-id&gt;</tt>).
+				Both applications define a single Portlet each. Application id 3 uses the Portlet <i>TestPortlet1</i>
+				(<tt>&lt;definition-id&gt;testsuite.TestPortlet1&lt;/definition-id&gt;</tt>), while Application id 4 uses
+				the Portlet <i>TestPortlet2</i>	(<tt>&lt;definition-id&gt;testsuite.TestPortlet2&lt;/definition-id&gt;</tt>).
+				Note that prefixing the name of the Portlet with the name of web application (<i><b>testsuite</b>.TestPortlet1</i>)
+				is required.
+				</p>
+
+				<p>
+					Since Pluto 1.0.1-rc2, another configuration file, portletcontexts.txt, has been 
+				        included in the Pluto portal. The Portlet Contexts file ($PLUTO_HOME/WEB-INF/data/portletcontexts.txt) 
+				        lists the webapp 
+				        contexts for each portlet application that runs in Pluto. Each portlet app has a line in this 
+				        file corresponding to a path and starting with a slash ('/'). In Tomcat, this path is the value 
+				        of the 'path' attribute of the 'Context' element in a context XML descriptor in 
+				        $TOMCAT_HOME/conf/Catalina/localhost (or another 'conf' subdirectory).
+
+				</p>
+
+				<p>The Portlets themselves are defined in the portlet.xml configuration file within the
+				testsuite web application.	In that file there are two Portlets defined,
+				<i>TestPortlet1</i> and <i>TestPortlet2</i>, both of which point to the same
+				portlet class (<tt>org.apache.pluto.portalImpl.portlet.TestPortlet</tt>).
+				See the javax.portlet specification (JSR-168) for futher details on using the portlet.xml file.
+				</p>
+			</div>
+
+			<a name="Defining the Portal Layout"></a><div class="section"><h3>Defining the Portal Layout</h3>
+				<p>Once the Portlets available have been defined the Portal layout needs to be defined.	In the
+				Pluto Portal the file <i>pageregistry.xml</i> in the directory ${TOMCAT_HOME}/webapps/pluto/data defines this layout.</p>
+
+				<p>When Pluto is first installed, pageregistry.xml looks like this:
+			<div class="source"><pre>
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;portal&gt;
+    &lt;fragment name=&quot;navigation&quot; class=&quot;org.apache.pluto.portalImpl.aggregation.navigation.TabNavigation&quot;&gt;
+    &lt;/fragment&gt;
+
+    &lt;fragment name=&quot;test&quot; type=&quot;page&quot;&gt;
+        &lt;navigation&gt;
+            &lt;title&gt;Test&lt;/title&gt;
+            &lt;description&gt;...&lt;/description&gt;
+        &lt;/navigation&gt;
+
+        &lt;fragment name=&quot;row&quot; type=&quot;row&quot;&gt;
+            &lt;fragment name=&quot;col1&quot; type=&quot;column&quot;&gt;
+
+                &lt;fragment name=&quot;p1&quot; type=&quot;portlet&quot;&gt;
+                    &lt;property name=&quot;portlet&quot; value=&quot;3.1&quot;/&gt;
+                &lt;/fragment&gt;
+                &lt;fragment name=&quot;p2&quot; type=&quot;portlet&quot;&gt;
+                    &lt;property name=&quot;portlet&quot; value=&quot;4.1&quot;/&gt;
+                &lt;/fragment&gt;
+
+            &lt;/fragment&gt;
+        &lt;/fragment&gt;
+    &lt;/fragment&gt;
+&lt;/portal&gt;
+			</pre></div>
+				</p>
+
+				<p>This configuration results in the Portal being displayed
+				(from the url http://servername/pluto/portal/test/) as Figure 1 shows.</p>
+
+				<div align="center">
+					<p>
+							<a href="../../images/v101/default_portal_layout.jpg">
+                <img src="../../images/v101/default_portal_layout.jpg" alt="Default Portal Layout" width="500"></img></a>
+					</p>
+					<p>
+						<i><b><font size="-1">Figure 1. Default Portal Layout. Click on the picture to enlarge it</font></b></i>
+					</p>
+				</div>
+
+				<p>Working from the top of pageregistry.xml down, the first important section we come to is:
+				<div class="source"><pre>
+&lt;fragment name=&quot;navigation&quot; class=&quot;org.apache.pluto.portalImpl.aggregation.navigation.TabNavigation&quot;&gt;
+&lt;/fragment&gt;
+				</pre></div>
+				</p>
+				<p>This section tells the Portal to add a navigation menu to the user interface. Each fragment of
+				type <i>page</i> will be displayed in the navigation menu, provided the fragment has a &lt;navigation&gt;
+				sub-element. Removing the <tt>&lt;fragment name=&quot;navigation&quot; ...&gt;&lt;/fragment&gt;</tt> section
+				will result in no navigation menu being displayed.
+				</p>
+
+				<p>
+				The next section is:
+				<div class="source"><pre>
+    &lt;fragment name=&quot;test&quot; type=&quot;page&quot;&gt;
+        &lt;navigation&gt;
+            &lt;title&gt;Test&lt;/title&gt;
+            &lt;description&gt;...&lt;/description&gt;
+        &lt;/navigation&gt;
+		...
+		...
+    &lt;/fragment&gt;
+				</pre></div>
+				</p>
+				<p>
+				This section defines a Portal &quot;page&quot;, which is simply a container for one or more Portlets. The <i>name</i>
+				attribute must be unique within the pageregistry.xml file (if this constraint is not met an error
+				message <i>Fragment with this name &lt;duplicated name&gt; already exists in the pageregistry.xml.</i> will be written to your
+				log and your Pluto web application will fail to load).
+				</p>
+				<p>
+				The navigation subsection is used by the navigation menu (discussed previously). The &lt;title&gt;...&lt;/title&gt;
+				defines the label that will be shown in the navigation menu. The &lt;description&gt;...&lt;/description&gt;element
+				is not used.
+				</p>
+
+				<p>Inside the <tt>&lt;fragment type=&quot;page&quot; .... &gt;&lt;/fragment&gt;</tt> elements we find
+				<div class="source"><pre>
+    &lt;fragment name=&quot;row&quot; type=&quot;row&quot;&gt;
+        &lt;fragment name=&quot;col1&quot; type=&quot;column&quot;&gt;
+
+            &lt;fragment name=&quot;p1&quot; type=&quot;portlet&quot;&gt;
+                &lt;property name=&quot;portlet&quot; value=&quot;3.1&quot;/&gt;
+            &lt;/fragment&gt;
+            &lt;fragment name=&quot;p2&quot; type=&quot;portlet&quot;&gt;
+                &lt;property name=&quot;portlet&quot; value=&quot;4.1&quot;/&gt;
+            &lt;/fragment&gt;
+
+        &lt;/fragment&gt;
+    &lt;/fragment&gt;
+				</pre></div>
+				</p>
+				<p>This defines the layout of the Portal &quot;page&quot;. In this case two Portlets will be laid out in two columns,
+				nested inside a single row.
+				</p>
+				<p>The configuration below will give the page a layout of two rows, with a Portlet in each. Note that the names of all fragments
+				need to be unique.
+				<div class="source"><pre>
+	&lt;fragment name=&quot;row1&quot; type=&quot;row&quot;&gt;
+	    &lt;fragment name=&quot;col1&quot; type=&quot;column&quot;&gt;
+	        &lt;fragment name=&quot;p1&quot; type=&quot;portlet&quot;&gt;
+	            &lt;property name=&quot;portlet&quot; value=&quot;3.1&quot;/&gt;
+	        &lt;/fragment&gt;
+	    &lt;/fragment&gt;
+	&lt;/fragment&gt;
+	&lt;fragment name=&quot;row2&quot; type=&quot;row&quot;&gt;
+	    &lt;fragment name=&quot;col2&quot; type=&quot;column&quot;&gt;
+	        &lt;fragment name=&quot;p2&quot; type=&quot;portlet&quot;&gt;
+	            &lt;property name=&quot;portlet&quot; value=&quot;4.1&quot;/&gt;
+	        &lt;/fragment&gt;
+	    &lt;/fragment&gt;
+	&lt;/fragment&gt;
+				</pre></div>
+				</p>
+				<p>The section
+				<div class="source"><pre>
+    &lt;fragment name=&quot;p1&quot; type=&quot;portlet&quot;&gt;
+        &lt;property name=&quot;portlet&quot; value=&quot;3.1&quot;/&gt;
+    &lt;/fragment&gt;
+    			</pre></div>
+    			</p>
+    			<p>defines which portlet to display. <tt>&lt;property name=&quot;portlet&quot; value=&quot;3.1&quot;/&gt;</tt> tells the Portal
+				to lookup the Portlet &quot;3.1&quot; and display it in this location. The value &quot;3.1&quot; means refers to the ids given
+				in <i>portletentityregistry.xml</i> (discussed previously). In this case, it mean application id &quot;3&quot;,
+				portlet id &quot;1&quot;.
+				</p>
+			</div>
+		</div>
+
+		<a name="Advanced Customization"></a><div class="section"><h2>Advanced Customization</h2>
+			<a name="JSP Templates"></a><div class="section"><h3>JSP Templates</h3>
+				<p>It is possible to customize the JSP templates Pluto uses. This is beyond the scope of this document,
+				but a brief outline follows to get you started.</p>
+
+				<p>By default, Pluto uses JSP templates from the directory
+				${TOMCAT_HOME}/webapps/pluto/WEB-INF/aggregation directory. This can be overridden by
+				adding a line like
+				<div class="source"><pre>
+aggregation.base.dir=/WEB-INF/templates/
+				</pre></div>
+				to the file ${TOMCAT_HOME}/webapps/pluto/WEB-INF/config/services/ConfigService.properties.
+				</p>
+				<p>The following JSP files are used by the Portal:
+					<ul>
+						<li>Banner.jsp - The blue title bar which says &quot;Pluto - Reference Implementation&quot;. Only called from RootFragment.jsp</li>
+						<li>ColumnFragment.jsp - Called for each column fragment.</li>
+						<li>Head.jsp - The HTML header. Only called from RootFragment.jsp</li>
+						<li>PageFragment.jsp - Called for each Portal page displayed.</li>
+						<li>PortletFragmentFooter.jsp - The footer of each Portlet.</li>
+						<li>PortletFragmentHeader.jsp - The header of each Portlet.</li>
+						<li>RootFragment.jsp - Defines the layout of the Portal. This is the file to modify if you need
+							to modify the width of the navigation bar, for instance.</li>
+						<li>RowFragment.jsp - Called for each row fragment.</li>
+						<li>TabNavigation.jsp - Displays the navigation menu.</li>
+					</ul>
+				
+				
+				Most customization of the Portal can be done in RootFragment.jsp,
+				PortletFragmentHeader.jsp and PortletFragmentFooter.jsp.
+				
+			</div>
+			<a name="Internationalization"></a><div class="section"><h3>Internationalization</h3>
+				The Pluto portal supports non latin-1 character-sets in its output. To enable this, uncomment the section
+				<div class="source"><pre>
+	 &lt;init-param&gt;
+	     &lt;param-name&gt;charset&lt;/param-name&gt;
+	     &lt;param-value&gt;utf-8&lt;/param-value&gt;
+	 &lt;/init-param&gt;
+				</pre></div>
+				from the &quot;pluto&quot; Servlet section in the file ${TOMCAT_HOME}/webapps/pluto/WEB-INF/web.xml.
+			</div>
+			<a name="Further Information"></a><div class="section"><h3>Further Information</h3>
+				
+				Further information can be found in the <a href="../faq.html">FAQ</a>, on the <a href="../../mail-lists.html">Mailing Lists</a>
+				and on the <a href="../../wiki.html">Wiki</a>
+				
+			</div>
+		</div>
+	
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2001-2007
+    
+          Apache Software Foundation
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

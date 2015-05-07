@@ -1,0 +1,27 @@
+
+.clock_container{
+	width: 156px !important;
+	float: none;
+}
+
+.clock_container .lbl{
+	font-size: 20px;
+	color: #333333;
+	background: url(../js/jClocksGMT-master/images/clock_label_large.png);
+	height: 30px;
+	width: 156px;
+	padding-top: 2px;
+}
+
+.digital{
+	font-size: 24px;
+	color: #444444;
+}
+
+.rotatingWrapper{
+	left: 0;
+}
+
+.clock{
+	margin-left: 0;
+}

@@ -1,0 +1,6 @@
+127.0.0.1 - - [29/Apr/2015:15:45:08 +1000] "GET / HTTP/1.1" 200 11598
+127.0.0.1 - - [29/Apr/2015:15:45:13 +1000] "GET /screen1.html HTTP/1.1" 404 991
+127.0.0.1 - - [29/Apr/2015:15:45:28 +1000] "GET /pluto/portal/CJ%20Test HTTP/1.1" 200 1252
+127.0.0.1 - - [29/Apr/2015:15:45:30 +1000] "POST /pluto/portal/j_security_check HTTP/1.1" 302 157
+127.0.0.1 - tomcat [29/Apr/2015:15:45:32 +1000] "GET /pluto/portal/CJ%20Test HTTP/1.1" 200 12822
+127.0.0.1 - - [29/Apr/2015:15:45:32 +1000] "GET /ClockPortlet2/css/clock.css HTTP/1.1" 304 -

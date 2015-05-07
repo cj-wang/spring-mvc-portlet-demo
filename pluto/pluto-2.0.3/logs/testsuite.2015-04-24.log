@@ -1,0 +1,78 @@
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.RenderParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ActionParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.DispatcherRenderParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.DispatcherRequestTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.SimpleAttributeTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.AppScopedSessionAttributeTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ExternalAppScopedAttributeTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ContextInitParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.PreferenceInActionTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.PreferenceInRenderTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.SessionTimeoutTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading NoOpTest (test with no name).
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading NoOpTest (test with no name).
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.MiscTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.SecurityMappingTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ResourceBundleTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.RenderParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ActionParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.DispatcherRenderParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.DispatcherRequestTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.SimpleAttributeTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.AppScopedSessionAttributeTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ExternalAppScopedAttributeTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ContextInitParameterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.PreferenceInActionTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.PreferenceInRenderTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.SessionTimeoutTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading NoOpTest (test with no name).
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading NoOpTest (test with no name).
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.MiscTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.SecurityMappingTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.ResourceBundleTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.jsr286.filter.RenderFilterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.jsr286.filter.ActionFilterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.jsr286.filter.ResourceFilterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.jsr286.filter.EventFilterTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.jsr286.event.SimplePayloadEventTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.jsr286.event.ComplexPayloadEventTest
+Apr 24, 2015 3:00:17 PM org.apache.pluto.testsuite.TestPortlet init
+FINE: Loading test: org.apache.pluto.testsuite.test.jsr286.PublicRenderParameterTest

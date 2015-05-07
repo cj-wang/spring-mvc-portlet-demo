@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Pluto - 
+    Getting Started with Pluto 1.0.1</title>
+    <style type="text/css" media="all">
+      @import url("../css/maven-base.css");
+      @import url("../css/maven-theme.css");
+      @import url("../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+          <meta name="author" content="
+    Jean-Baptiste Joret" />
+          <meta name="author" content="
+    David H. DeWolf" />
+          <meta name="author" content="
+    Nick Lothian" />
+          <meta name="author" content="
+    Craig Doremus" />
+          <meta name="author" content="
+    ZHENG Zhong" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="" id="bannerLeft">
+    
+                                            <img src="../images/apache-portals.gif" alt="" />
+    
+            </a>
+                          <span id="bannerRight">
+    
+                                            <img src="../images/banner.png" alt="" />
+    
+            </span>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+            <div class="xleft">
+        Last Published: 02/11/2007
+                      </div>
+            <div class="xright">      <a href="http://jcp.org/en/jsr/detail?id=168">JSR 168</a>
+          |
+          <a href="http://jcp.org/en/jsr/detail?id=286">JSR 286</a>
+          |
+          <a href="http://people.apache.org/~zheng/pluto/chinese/">Chinese Translation</a>
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+                   <h5>The Pluto Project</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../index.html">About Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../mission.html">Mission</a>
+        </li>
+              
+    <li class="none">
+              <a href="../download.html">Download</a>
+        </li>
+              
+    <li class="none">
+              <a href="../news.html">News</a>
+        </li>
+              
+    <li class="none">
+              <a href="../faq.html">FAQ</a>
+        </li>
+              
+    <li class="none">
+              <a href="http://wiki.apache.org/portals/Pluto">Wiki</a>
+        </li>
+              
+    <li class="none">
+              <a href="../powered.html">Powered By Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../get-involved.html">Get Involved</a>
+        </li>
+          </ul>
+          <h5>Pluto 1.0.1</h5>
+        <ul>
+              
+    <li class="none">
+              <strong>Getting Started</strong>
+        </li>
+              
+    <li class="none">
+              <a href="../v101/resources.html">Resources</a>
+        </li>
+              
+          
+              
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../v101/userguide/index.html">User Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../v101/userguide/portal.html">Portal Guide</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/userguide/testsuite.html">Testsuite Guide</a>
+        </li>
+              </ul>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../v101/developer/index.html">Developer Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../v101/developer/arch.html">Architecture</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/developer/subversion.html">Obtaining Source</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/developer/build_source.html">Building From Source</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/developer/integrate.html">Integrating</a>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Pluto 1.1</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../v11/getting-started.html">Getting Started</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/deploying.html">Deploying</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/app-servers.html">App Servers</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/architecture.html">Architecture</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/resources.html">Resources</a>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../v11/subprojects.html">Subprojects</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../pluto-container/index.html">Portlet Container</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-taglib/index.html">Portlet Tags</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-portal-driver/index.html">Portal Driver</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-portal/index.html">Portal</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-testsuite/index.html">Testsuite</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-descriptor-api/index.html">Descriptor API</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-descriptor-impl/index.html">Descriptor Impl</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-optional-services/index.html">Optional Services</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../maven-pluto-plugin/index.html">Maven Plugin</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-ant-tasks/index.html">Ant Tasks</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-util/index.html">Util</a>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Project Documentation</h5>
+        <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+              <a href="../project-info.html">Project Information</a>
+              </li>
+          </ul>
+                                       <a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy">
+            <img alt="Built by Maven" src="../images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+  
+  
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        
+  
+  
+  
+  
+    
+    <a name="Installation Guide"></a><div class="section"><h2>Installation Guide</h2>
+      <p>
+        This install guide covers the following types of installations:
+        <ul>
+          <li><a href="#Installing_Pluto_Distributions">Installing Pluto Distributions</a></li>
+          <li><a href="#Installing_Portlets">Installing Portlets</a></li>
+          <ul>
+            <li><a href="#Installing_With_Maven">Installing with Maven</a></li>
+            <li><a href="#Using_the_Admin_Portlet_Application">Using the Admin Portlet Application</a></li>
+          </ul>
+        </ul>
+      
+    </div>
+    
+    <a name="Installing Pluto Distributions"></a><div class="section"><h2>Installing Pluto Distributions</h2>
+      
+      <a name="Binary Distribution"></a><div class="section"><h3>Binary Distribution</h3>
+        
+          The binary distribution of Pluto is packaged with Tomcat (currently
+          version 5.5.9).  Pluto leverages Tomcat to provide the web container
+          in which the Pluto portlet container executes. The binary distribution
+          includes the Pluto Portlet Container, The Portal Driver, the Pluto
+          Testsuite and the Admin Portlet application.
+        
+        
+          To install the binary distribution:
+          <ul>
+            <li><a href="mirrors.cgi">Download</a> the current binary
+            distribution of Pluto</li>
+            <li>Extract the binary distribution to a directory from here forward
+            refered to as <code>&quot;&lt;PLUTO_HOME&gt;&quot;</code>.</li>
+            <li>Startup the server by using the appropriate tomcat startup
+            script located at <code>&lt;PLUTO_HOME&gt;/bin</code>.
+            For *nix use <code>startup.sh</code>; for windows use
+            <code>startup.bat</code>.</li>
+            <li>By default Tomcat 5.5 uses JDK 1.5 (J2SE 5.0). In order to run
+            it with JDK 1.4, a compatibility package needs to be downloaded and
+            installed. See the Running.txt file in the root directory for
+            details.</li>
+            <li>Point your browser to <code>http://localhost:8080/pluto/portal</code>,
+            the Pluto Driver, and your ready to go!</li>
+          </ul>
+        
+      </div>
+      
+      <a name="Library Distributions"></a><div class="section"><h3>Library Distributions</h3>
+        
+          The pluto library distributions are packaged to allow integration with
+          an external portal server.
+        
+        
+          To install the library distributions to your portal server, ensure
+          that the pluto-x.x.x.jar is loaded by a classloader to which both the
+          portal and portlet application web apps have access.
+        
+      </div>
+      
+      <a name="Source Distribution"></a><div class="section"><h3>Source Distribution</h3>
+        
+          Installing the source distribution requires the most effort, and is
+          recomended only for those individuals who are interested in modifying
+          the container.  The source distribution is basically a snapshot of the
+          source code repository at a given time. Because of this, please see
+          the build instructions, which will provide information about how to
+          build Pluto from scratch.
+        
+        
+          To install the source distribution into Tomcat:
+          <ul>
+            <li>Install Java 1.4 or greater</li>
+            <li>Install Maven 1.0 or greater</li>
+            <li>Install Tomcat 4.x or Tomcat 5.x to a directory from here
+            forward refered to as <code>&lt;TOMCAT_HOME&gt;</code></li>
+            <li>Edit your <code>&lt;PLUTO_HOME&gt;/build.properties</code> to
+            include the following properties:
+              <table class="bodyTable">
+                <tr class="a">
+                  <th>Property</th>
+                  <th>Value</th>
+                  <th>Example(s)</th>
+                </tr>
+                <tr class="b">
+                  <td>maven.tomcat.home</td>
+                  <td>Tomcat Installation Directory</td>
+                  <td><code>/usr/local/apache-tomcat.5.0.27</code>,
+                      <code>c:\\apache-tomcat.5.0.27</code></td>
+                </tr>
+                <tr class="a">
+                  <td>maven.tomcat.version.major</td>
+                  <td>Tomcat Major Version Number</td>
+                  <td>5</td>
+                </tr>
+              </table>
+            </li>
+            <li>From <code>&lt;PLUTO_HOME&gt;</code> issue the command:
+            <code>maven fullDeployment</code></li>
+            <li>Startup the server by using the appropriate Tomcat startup
+            script located at <code>&lt;PLUTO_HOME&gt;/bin</code>.
+            For *nix use <code>startup.sh</code>; for windows use
+            <code>startup.bat</code>.</li>
+            <li>Point your browser to
+            <code>http://localhost:8080/pluto/portal</code>, the Pluto Driver,
+            and your ready to go!</li>
+          </ul>
+        
+      </div>
+      
+    </div>
+    
+    <a name="Installing Portlets"></a><div class="section"><h2>Installing Portlets</h2>
+      
+      <a name="Installing with Maven"></a><div class="section"><h3>Installing with Maven</h3>
+        
+          <span style="color: #FF0000;">Currently, to automate the
+          deployment/installation of portlets you must utilize the source
+          distribution of pluto. Alternatively, you could use the
+          <a href="#Using_the_Admin_Portlet_Application">Admin Portlet
+          Application</a> to install custom portlets.</span>
+        
+        
+          In order to deploy a portlet application to pluto, you must follow the
+          steps below:
+        
+        
+          <b>Step 1:</b> Assemble your portlet application into a valid war.
+        
+        
+          <b>Step 2:</b> Run the maven deploy goal on your war. This can be done
+          by running this command line in the deploy subdirectory:
+          <div class="source"><pre>
+maven deploy -Ddeploy=/MyPathToMyPortlet/target/MyPortlet.war
+          </pre></div>
+          See the <a href="developer/build_source.html">Building From Source</a>
+          document for detailed instructions.
+        
+        
+          Alternatively, there is an interactive ant script in the
+          <code>portlet-deploy</code> directory that will perform the same task
+          as the Maven deployment goal.
+        
+        
+          <b>Step 3:</b> Modify the Portlet Entity Registry and the Page
+          Registry and Portlet Contexts files. These configuration files are
+          located at:
+          <ul>
+            <li><code>[portal-home]/WEB-INF/data/portletentityregistry.xml</code></li>
+            <li><code>[portal-home]/WEB-INF/data/pageregistry.xml</code></li>
+            <li><code>[portal-home]/WEB-INF/data/portletcontexts.txt</code></li>
+          </ul>
+        
+        
+          The Portlet Entity Registry file requires that you specify an
+          application and a Portlet ID for your new Portlet. The Application ID
+          must be unique. It also needs to know the name of the Portlet so that
+          it can go out and find it in the webapps path. Furthermore, this
+          information is used to map the Portlet name to the appropriate class
+          path for loading the class. The following is an example of some
+          additions you can make to the entity registry file:
+        
+        
+          <div class="source"><pre>
+&lt;application id=&quot;6&quot;&gt;
+  &lt;definition-id&gt;MyPortlet&lt;/definition-id&gt;
+  &lt;portlet id=&quot;1&quot;&gt;
+    &lt;definition-id&gt;MyPortlet.MyPortlet&lt;/definition-id&gt;
+  &lt;/portlet&gt;
+&lt;/application&gt;
+          </pre></div>
+        
+        
+          The Page Registry provides Pluto with the layout information for your
+          Portlet. The names used in the fragments must be unique as done in
+          the following example:
+        
+        
+          <div class="source"><pre>
+&lt;fragment name=&quot;MyPortlet&quot; type=&quot;page&quot;&gt;
+  &lt;navigation&gt;
+    &lt;title&gt;My First Portlet&lt;/title&gt;
+    &lt;description&gt;...&lt;/description&gt;
+  &lt;/navigation&gt;
+  
+  &lt;fragment name=&quot;row3&quot; type=&quot;row&quot;&gt;
+    &lt;fragment name=&quot;col3&quot; type=&quot;column&quot;&gt;
+      &lt;fragment name=&quot;p4&quot; type=&quot;portlet&quot;&gt;
+        &lt;property name=&quot;portlet&quot; value=&quot;6.1&quot;/&gt;
+      &lt;/fragment&gt;
+    &lt;/fragment&gt;
+  &lt;/fragment&gt;
+  
+  ... ...
+
+&lt;/fragment&gt;
+          </pre></div>
+        
+        
+          The Portlet Contexts file (<code>portletcontexts.txt</code>) lists
+          the webapp contexts for each portlet application that runs in Pluto.
+          Each portlet app has a line in this file corresponding to a path and
+          starting with a slash ('/'). In Tomcat, this path is the value of the
+          'path' attribute of the 'Context' element in a context XML descriptor
+          in <code>&lt;TOMCAT_HOME&gt;/conf/Catalina/localhost</code>
+          (or another 'conf' subdirectory).
+        
+      </div>
+      
+      <a name="Using the Admin Portlet Application"></a><div class="section"><h3>Using the Admin Portlet Application</h3>
+        
+          The Admin Portlet Application allows you to deploy custom portlets
+          using an interface in Pluto's portal. This application automatically
+          places the custom portlets to their proper place and updates the
+          registries.
+        
+        <p>
+          Deploying a custom portlet application to Pluto using the Admin
+          Portlet Application requires the following steps:
+          <ul>
+            <li>Assemble your portlet application into a valid war.</li>
+            <li>Start Pluto and navigate to
+            <code>http://localhost:8080/pluto/portal</code>, the local Pluto
+            home page.</li>
+            <li>Click on the Admin navigation link. The Admin Portlet App should
+            appear.</li>
+            <li>In the Deploy War Portlet, click on the Browse button and select
+            your war file</li>
+            <li>Click on the Submit button of the Deploy War Portlet</li>
+            <li>In the resulting page, fill in the Title, Description (optional),
+            and the number of rows and columns you desire for laying out the
+            portlets. Click on Submit</li>
+            <li>In the resulting page, select from the drop downs which portlet
+            will be deployed in a particular row and column. Click on Submit.</li>
+            <li>After returning to the Deploy War Portlet 'home page', click on
+            the blue 'Hot deploy ...' link to hot deploy the new portlet app and
+            get redirected to its page.</li>
+          </ul>
+        
+        
+          Check out the Deploy War Portlet's help mode (help link) for
+          information on redeploying and undeploying portlets and
+          troubleshooting problems.
+        
+      </div>
+      
+    </div>
+    
+  
+  
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2001-2007
+    
+          Apache Software Foundation
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

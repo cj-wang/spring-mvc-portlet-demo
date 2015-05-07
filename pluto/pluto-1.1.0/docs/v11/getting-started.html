@@ -1,0 +1,559 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Pluto - 
+    Getting Started With Pluto</title>
+    <style type="text/css" media="all">
+      @import url("../css/maven-base.css");
+      @import url("../css/maven-theme.css");
+      @import url("../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+          <meta name="author" content="
+    David DeWolf" />
+          <meta name="author" content="
+    ZHENG Zhong" />
+          <meta name="author" content="
+    Craig Doremus" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="" id="bannerLeft">
+    
+                                            <img src="../images/apache-portals.gif" alt="" />
+    
+            </a>
+                          <span id="bannerRight">
+    
+                                            <img src="../images/banner.png" alt="" />
+    
+            </span>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+            <div class="xleft">
+        Last Published: 02/11/2007
+                      </div>
+            <div class="xright">      <a href="http://jcp.org/en/jsr/detail?id=168">JSR 168</a>
+          |
+          <a href="http://jcp.org/en/jsr/detail?id=286">JSR 286</a>
+          |
+          <a href="http://people.apache.org/~zheng/pluto/chinese/">Chinese Translation</a>
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+                   <h5>The Pluto Project</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../index.html">About Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../mission.html">Mission</a>
+        </li>
+              
+    <li class="none">
+              <a href="../download.html">Download</a>
+        </li>
+              
+    <li class="none">
+              <a href="../news.html">News</a>
+        </li>
+              
+    <li class="none">
+              <a href="../faq.html">FAQ</a>
+        </li>
+              
+    <li class="none">
+              <a href="http://wiki.apache.org/portals/Pluto">Wiki</a>
+        </li>
+              
+    <li class="none">
+              <a href="../powered.html">Powered By Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../get-involved.html">Get Involved</a>
+        </li>
+          </ul>
+          <h5>Pluto 1.0.1</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../v101/install.html">Getting Started</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v101/resources.html">Resources</a>
+        </li>
+              
+          
+              
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../v101/userguide/index.html">User Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../v101/userguide/portal.html">Portal Guide</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/userguide/testsuite.html">Testsuite Guide</a>
+        </li>
+              </ul>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../v101/developer/index.html">Developer Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../v101/developer/arch.html">Architecture</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/developer/subversion.html">Obtaining Source</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/developer/build_source.html">Building From Source</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../v101/developer/integrate.html">Integrating</a>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Pluto 1.1</h5>
+        <ul>
+              
+    <li class="none">
+              <strong>Getting Started</strong>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/deploying.html">Deploying</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/app-servers.html">App Servers</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/architecture.html">Architecture</a>
+        </li>
+              
+    <li class="none">
+              <a href="../v11/resources.html">Resources</a>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../v11/subprojects.html">Subprojects</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../pluto-container/index.html">Portlet Container</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-taglib/index.html">Portlet Tags</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-portal-driver/index.html">Portal Driver</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-portal/index.html">Portal</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-testsuite/index.html">Testsuite</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-descriptor-api/index.html">Descriptor API</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-descriptor-impl/index.html">Descriptor Impl</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-optional-services/index.html">Optional Services</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../maven-pluto-plugin/index.html">Maven Plugin</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-ant-tasks/index.html">Ant Tasks</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../pluto-util/index.html">Util</a>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Project Documentation</h5>
+        <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+              <a href="../project-info.html">Project Information</a>
+              </li>
+          </ul>
+                                       <a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy">
+            <img alt="Built by Maven" src="../images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+  
+  
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        
+  
+  
+  
+  
+
+    <a name="Installing the Pluto 1.1 Binary Build"></a><div class="section"><h2>Installing the Pluto 1.1 Binary Build</h2>
+      
+      <ol type="1">
+        <li>Download a Pluto 1.1 binary distribution from 
+        a <a href="http://cvs.apache.org/dist/portals/pluto/v1.1.0-beta2/">distribution site</a>.</li>
+        <li>Unzip the binary distribution into a directory.</li>
+        	<ol type="1">
+        		<li>&lt;PLUTO-1.1-HOME&gt; will be the top level directory.</li>
+        	</ol>	
+        <li>Execute startup.bat (Windows) or startup.sh (Unix)
+in &lt;PLUTO-1.1-HOME&gt;/bin.</li>
+			<ol type="1">
+	        	<li>Use shutdown.bat/shutdown.sh to stop the portal</li>
+			</ol>
+        <li>Browse to <a href="http://localhost:8080/pluto/portal">http://localhost:8080/pluto/portal</a></li>
+        <li>Login as the user pluto (password=pluto).</li>
+      </ol>
+
+	</div>
+	    
+    <a name="Building Pluto from Source"></a><div class="section"><h2>Building Pluto from Source</h2>
+      
+      
+        Maven 2 is utilized as the project management and build system for
+        Pluto 1.1. Pluto currently provides Maven plugins which can be used to
+        install the Pluto Portal, assemble portlet applications, deploy
+        applications, and publish portlet applications to the Pluto Portal.
+      
+
+      <a name="Obtaining Pluto 1.1 Source Code"></a><div class="section"><h3>Obtaining Pluto 1.1 Source Code</h3>
+		The Pluto project uses the
+		<a href="http://subversion.tigris.org/">Subversion</a> version control
+		system.  If you're new to Subversion, you can check out the
+		<a href="http://svnbook.red-bean.com/">online book</a> about Subversion.
+		Note that we are currently using Subversion 1.3.x (there are separate
+		versions of the book covering the different versions of Subversion). 
+		
+
+    	<b>Web Access to Subversion</b>
+    	
+		
+		To browse the Pluto 1.1 source code, you can use the
+		<a href="http://svn.apache.org/viewcvs.cgi/portals/pluto/trunk?root=Apache-SVN">ViewCVS
+		web interface</a> to Subversion. This is current at all times.
+		
+
+		<b>Normal Subversion Access</b>
+		Anyone can check code out of Subversion anonymously.  However, you need to specify a
+		username and password in order to update the Subversion repository, and only
+		Pluto committers have the permissions to do that.  We run Subversion
+		over standard HTTPS, so hopefully you won't have problems with intervening
+		firewalls.
+
+		<h3>Check out from Subversion</h3>
+		
+		Again, anyone can do this.  To check out the latest distribution of Pluto 1.1 (trunk) to a directory 
+		called 'pluto' use this command:
+		<pre>svn checkout https://svn.apache.org/repos/asf/portals/pluto/trunk/ pluto</pre>
+		
+
+		<p>To check out Pluto 1.1.0-beta2 source to the 'pluto' directory use this command:
+		<pre>svn checkout https://svn.apache.org/repos/asf/portals/pluto/tags/release-1.1.0-beta2/ pluto</pre>
+		</p>
+
+        <p>
+          Zipped up Pluto source distributions can also be downloaded from
+        a <a href="http://www.apache.org/dyn/closer.cgi/portals/pluto/">distribution mirror</a>.  
+        </p>          
+
+	  </div>	    
+	    
+      <a name="Building Pluto with Maven 2"></a><div class="section"><h3>Building Pluto with Maven 2</h3>
+        <p>
+          <code>&lt;PLUTO-1.1-SRCHOME&gt;</code> is the local directory where the
+          Pluto 1.1 source distribution has been checked out or unzipped into.
+        </p>
+        <p>
+          <div class="source"><pre>
+$&gt; cd &lt;PLUTO-1.1-SRCHOME&gt;
+$&gt; mvn install
+$&gt; mvn pluto:install -DinstallDir=path/to/appserver
+          </pre></div>
+        </p>
+        <p>
+          The <code>install</code> goal is a built in Maven 2 lifecycle
+          which builds the project artifacts and installs them into the Maven
+          repository.
+        </p>
+        <p>
+          The <code>pluto:install</code> goal will take the resulting artifacts
+          and properly deploy them within the configured Tomcat installation.
+          Currently, the Pluto 1.1 install has been tested on Tomcat 5.5.9 and Tomcat 5.5.17.
+          The Tomcat 5 archive can be found <a href="http://archive.apache.org/dist/tomcat/tomcat-5/archive">here</a>.
+        </p>
+        <p>
+          If installing to a directory that contains spaces, <code>installDir</code>
+          needs to be enclosed within quotes:
+        </p>
+        <p>
+          <div class="source"><pre>
+C:\pluto&gt; mvn pluto:install -DinstallDir=&quot;C:\Program Files\Apache Software Foundation\Tomcat 5.5&quot;
+          </pre></div>
+        </p>
+        
+      </div>
+      
+      <a name="Installing Pluto Manually"></a><div class="section"><h3>Installing Pluto Manually</h3>
+        <p>
+        This section documents the manual installation of Pluto into Tomcat. It replaces 
+        the pluto:install goal, but requires that the built-in Maven 2 install goal 
+        (<code>mvn install</code>) be run from <code>&lt;PLUTO-1.1-SRCHOME&gt;</code>.
+        </p>
+        <p>
+          <b>Step 1:</b>
+          <div class="source"><pre>
+$&gt; cd &lt;PLUTO-1.1-SRCHOME&gt;
+$&gt; mvn install
+          </pre></div>
+        </p>
+        <p>
+          <b>Step 2:</b> Copy the following to
+          <code>&lt;TOMCAT_HOME&gt;/shared/lib</code>:
+          <ul>
+            <li>castor-1.0.jar</li>
+            <li>portlet-api-1.0.jar</li>
+            <li>pluto-container-1.1-beta2.jar</li>
+            <li>pluto-descriptor-api-1.1-beta2.jar</li>
+            <li>pluto-descriptor-impl-1.1-beta2.jar</li>
+            <li>pluto-taglib-1.1.0-beta2.jar</li>
+          </ul>
+        
+        
+          <b>Step 3:</b> Copy the following to
+          <code>&lt;TOMCAT_HOME&gt;/common/endorsed</code>:
+          <ul>
+            <li>xercesImpl-2.6.2.jar</li>
+            <li>xmlParserAPIs-2.6.2.jar</li>
+          </ul>
+        
+        
+          <b>Step 4:</b> Copy the following to
+          <code>&lt;TOMCAT_HOME&gt;/conf/Catalina/localhost</code>:
+          <ul>
+            <li>&lt;PLUTO_SRCHOME&gt;/pluto-portal/src/main/resources/pluto.xml</li>
+            <li>&lt;PLUTO_SRCHOME&gt;/pluto-testsuite/src/main/resources/testsuite.xml</li>
+          </ul>
+        
+        
+          <b>Step 5:</b> Copy the following to
+          <code>&lt;TOMCAT_HOME&gt;/webapps</code>:
+          <ul>
+            <li>&lt;PLUTO_SRCHOME&gt;/pluto-portal/target/pluto-portal.war</li>
+            <li>&lt;PLUTO_SRCHOME&gt;/pluto-testsuite/target/pluto-testsuite.war</li>
+          </ul>
+        
+      </div>
+      
+      <a name="Installing Pluto with a Windows EXE"></a><div class="section"><h3>Installing Pluto with a Windows EXE</h3>
+        
+          The NSIS Installer is not yet complete, but we hope to have a fully
+          functional one soon.  Anyone is more than welcome to assist us in
+          this process.
+        
+      </div>
+          
+    <a name="Configuring Source-Built Pluto for Application Scope PortletSession Attributes"></a><div class="section"><h3>Configuring Source-Built Pluto for Application Scope PortletSession Attributes</h3>
+    To be able to use application-scoped <code>PortletSession</code> attributes in Pluto, modify
+    the Connector element for port 8080 in <code>&lt;TOMCAT_HOME&gt;/conf/server.xml</code> by
+    adding the following attribute and value: emptySessionPath=&quot;true&quot;.
+    
+    </div>    
+    <a name="Configuring User and Role in the Pluto Source Build"></a><div class="section"><h3>Configuring User and Role in the Pluto Source Build</h3>
+      
+        The Pluto Testsuite portlet application needs the role '<code>pluto</code>'
+        to run the Security Mapping Test. So before starting tomcat, you should
+        edit <code>&lt;TOMCAT_HOME&gt;/conf/tomcat-users.xml</code>, add the
+        role '<code>pluto</code>', and add a user in that role. The simplest way
+        to do this is to edit add the '<code>pluto</code>' role to the
+        '<code>tomcat</code>' user's record. Here is a sample
+        <code>tomcat-users.xml</code> file:
+        <div class="source"><pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;tomcat-users&gt;
+  &lt;role rolename=&quot;pluto&quot;/&gt;
+  &lt;role rolename=&quot;tomcat&quot;/&gt;
+  &lt;role rolename=&quot;role1&quot;/&gt;
+  &lt;user username=&quot;tomcat&quot; password=&quot;tomcat&quot; roles=&quot;tomcat,pluto&quot;/&gt;
+  &lt;user username=&quot;role1&quot; password=&quot;tomcat&quot; roles=&quot;role1&quot;/&gt;
+  &lt;user username=&quot;both&quot; password=&quot;tomcat&quot; roles=&quot;tomcat,role1&quot;/&gt;
+&lt;/tomcat-users&gt;
+        </pre></div>
+      
+    </div>
+    
+    
+    <a name="Starting the Portal"></a><div class="section"><h3>Starting the Portal</h3>
+      
+        Now you are ready to use the Pluto Portal built from source. Start up tomcat by running
+        <code>startup.bat</code> (for windows) or <code>startup.sh</code> (for
+        *nix) in <code>&lt;TOMCAT_HOME&gt;/bin</code>, and browse to
+        <code>http://localhost:8080/pluto/portal</code>. Login to Pluto using
+        the user and password you just created in <code>tomcat-users.xml</code>.
+        If you added the 'pluto' role to the 'tomcat' user's record, you can
+        login as 'tomcat/tomcat'.
+      
+    </div>
+    </div>
+    
+  
+  
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2001-2007
+    
+          Apache Software Foundation
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

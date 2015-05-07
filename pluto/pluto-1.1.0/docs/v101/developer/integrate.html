@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Pluto - 
+		Integrating Pluto Into Your Container</title>
+    <style type="text/css" media="all">
+      @import url("../../css/maven-base.css");
+      @import url("../../css/maven-theme.css");
+      @import url("../../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../../css/print.css" type="text/css" media="print" />
+          <meta name="author" content="
+		Stefan Hepper" />
+          <meta name="author" content="
+		Stephan Hesmer" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="" id="bannerLeft">
+    
+                                            <img src="../../images/apache-portals.gif" alt="" />
+    
+            </a>
+                          <span id="bannerRight">
+    
+                                            <img src="../../images/banner.png" alt="" />
+    
+            </span>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+            <div class="xleft">
+        Last Published: 02/11/2007
+                      </div>
+            <div class="xright">      <a href="http://jcp.org/en/jsr/detail?id=168">JSR 168</a>
+          |
+          <a href="http://jcp.org/en/jsr/detail?id=286">JSR 286</a>
+          |
+          <a href="http://people.apache.org/~zheng/pluto/chinese/">Chinese Translation</a>
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+                   <h5>The Pluto Project</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../../index.html">About Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../mission.html">Mission</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../download.html">Download</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../news.html">News</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../faq.html">FAQ</a>
+        </li>
+              
+    <li class="none">
+              <a href="http://wiki.apache.org/portals/Pluto">Wiki</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../powered.html">Powered By Pluto</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../get-involved.html">Get Involved</a>
+        </li>
+          </ul>
+          <h5>Pluto 1.0.1</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../../v101/install.html">Getting Started</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v101/resources.html">Resources</a>
+        </li>
+              
+          
+              
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../../v101/userguide/index.html">User Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../../v101/userguide/portal.html">Portal Guide</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../v101/userguide/testsuite.html">Testsuite Guide</a>
+        </li>
+              </ul>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+            
+              
+            <li class="expanded">
+              <a href="../../v101/developer/index.html">Developer Guide</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../../v101/developer/arch.html">Architecture</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../v101/developer/subversion.html">Obtaining Source</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../v101/developer/build_source.html">Building From Source</a>
+        </li>
+                  
+    <li class="none">
+              <strong>Integrating</strong>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Pluto 1.1</h5>
+        <ul>
+              
+    <li class="none">
+              <a href="../../v11/getting-started.html">Getting Started</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/deploying.html">Deploying</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/app-servers.html">App Servers</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/architecture.html">Architecture</a>
+        </li>
+              
+    <li class="none">
+              <a href="../../v11/resources.html">Resources</a>
+        </li>
+              
+          
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="expanded">
+              <a href="../../v11/subprojects.html">Subprojects</a>
+                <ul>
+                  
+    <li class="none">
+              <a href="../../pluto-container/index.html">Portlet Container</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-taglib/index.html">Portlet Tags</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-portal-driver/index.html">Portal Driver</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-portal/index.html">Portal</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-testsuite/index.html">Testsuite</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-descriptor-api/index.html">Descriptor API</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-descriptor-impl/index.html">Descriptor Impl</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-optional-services/index.html">Optional Services</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../maven-pluto-plugin/index.html">Maven Plugin</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-ant-tasks/index.html">Ant Tasks</a>
+        </li>
+                  
+    <li class="none">
+              <a href="../../pluto-util/index.html">Util</a>
+        </li>
+              </ul>
+        </li>
+          </ul>
+          <h5>Project Documentation</h5>
+        <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+              <a href="../../project-info.html">Project Information</a>
+              </li>
+          </ul>
+                                       <a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy">
+            <img alt="Built by Maven" src="../../images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+  
+  
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        
+  
+	
+  
+	
+		<a name="Integrating Pluto Into Your Container"></a><div class="section"><h2>Integrating Pluto Into Your Container</h2>
+			
+      <div align="center">
+        Stefan Hepper (sthepper@apache.org)<br></br>
+        Stephan Hesmer (shesmer@apache.org)<br></br>
+      </div>
+      
+			<a name="1 Introduction"></a><div class="section"><h3>1 Introduction</h3>
+				<p>
+					<a href="http://portals.apache.org/pluto/">Pluto</a> is a project at
+          Apache Portals (http://portals.apache.org/pluto) that provides the
+          reference implementation of the Java Portlet Specification. The first
+          version of this specification is available as
+          <a href="http://jcp.org/en/jsr/detail?id=168">JSR 168</a>.
+          The pluto project contains two parts: the portlet container and
+          a simple test portal driver. This document is about how to use the
+          pluto portlet container and replace the sample portal driver with your
+          own portal.
+        </p>
+        <div align="center">
+          <p>
+            <a href="../../images/v101/jw-0801-portal_arch.jpg">
+              <img src="../../images/v101/jw-0801-portal_arch.jpg" alt="Portal Architecture" width="500"></img>
+            </a>
+          </p>
+          <p>
+            <b><i>Figure 1. Basic portal architecture. Click on the picture to
+            enlarge it</i></b>
+          </p>
+        </div>
+				<p>
+          Figure 1 depicts a portal's basic architecture. The portal's web
+          application processes the client request, retrieves the portlets on
+          the user's current page, and then calls the portlet container to
+          retrieve each portlet's content. The portal accesses the Portlet
+          Container by using the Portlet Container Invoker API. This interface
+          represents the main interface of the portlet container supporting
+          request-base methods to call portlets from a portal's point of view.
+          The Container Provider SPI (Service Provider Interface) is a callback
+          interface of the Portlet Container which needs to be implemented by
+          the portal to get portal related information, the container cannot
+          know about, like URL creation. Finally, the portlet container calls
+          all portlets via the Portlet API.
+        </p>
+      </div>
+      
+      <a name="2 Portlet container pluto"></a><div class="section"><h3>2 Portlet container pluto</h3>
+        <p>
+          The portlet container provides the runtime environment for the
+          portlets. It is a core component of each portal, requires knowledge
+          about the portal itself and has a need to reuse common code of the
+          portal. Due to these requirements the pluto portlet container is built
+          in a manner that completely separates the container from every other
+          portal component. Said that, the portlet container is a standalone
+          component that can be embedded in any portal by complying with the
+          requirements of the portlet container, such as implementing all SPIs.
+          The interfaces of the portlet container and its internal components
+          are described in more detail in the next paragraphs.
+        </p>
+				<div align="center">
+          <p>
+            <a href="../../images/v101/jw-0801-pluto_arch.jpg">
+              <img src="../../images/v101/jw-0801-pluto_arch.jpg" alt="Pluto Architecture" width="500"></img>
+            </a>
+          </p>
+          <p>
+            <b><i>Figure 2. The portlet container's architecture. Click on the
+            picture to enlarge it</i></b>
+          </p>
+        </div>
+        <p>
+          The Portlet Container Invoker API, also called entrance point, is the
+          main calling interface of a portlet container. It combines the
+          lifecycle (init, destroy) of a portlet container as well as the
+          request based calling methods (processAction, render). Due to its
+          nature of calling a portlet in the end, the method signature looks
+          similar to the main portlet interface of the Portlet API except that
+          a portlet identifier needs to be passed additionally. With this
+          additional parameter the container is able to determine the portlet
+          and call it accordingly.
+        </p>
+        <p>
+          Besides of the application programming interfaces the portlet
+          container can be instrumented by providing different implementations
+          through service provider interfaces. Therefore, the reference
+          implementation introduces a concept called Container Services.
+          This concept will be described in more detail in a later chapter.
+        </p>
+      </div>
+      
+      <a name="3 How to integrate pluto with a portal framework"></a><div class="section"><h3>3 How to integrate pluto with a portal framework</h3>
+        
+        <p>
+          This section covers in detail how the portal can call the container
+          and which SPIs needs to be implemented by the portal in order to
+          re-use pluto. The portal calls the pluto container via the portlet
+          container entrance point and needs to provide implementations for the
+          SPIs container services and the portlet object model.
+        </p>
+        
+        <a name="3.1 Portlet Container Entrance Point"></a><div class="section"><h3>3.1 Portlet Container Entrance Point</h3>
+          <p>
+            The portlet container entrance point
+            <code>org.apache.pluto.PortletContainer</code>, is the main
+            interface between the portal's framework / aggregation and the
+            portlet environment. This interface is used to call the portlet
+            environment and execute portlets. It doesn't match exactly to the
+            Portlet API methods (init, processAction, render, destroy) but
+            generalizes the interface wherever possible.
+          </p>
+          <p>
+            The entrance point has methods with different scopes:
+            <ul>
+              <li>
+                Lifecycle methods are called only <b>once</b> (init/shutdown).
+                <p>These methods are normally called directly from the service interfaces.</p>
+              </li>
+              <li>
+                Request-based methods are called for each request, but only
+                once for all portlets (portletLoad).
+                <p>These methods must be called before the page aggregation
+                actually starts and after aggregating the page, affecting all
+                portlets being rendered on the page. Currently the only method
+                in this category is portletLoad that ensures that the portlet is
+                loaded and initialized before the request processing starts.</p>
+              </li>
+              <li>
+                Request-based methods are called for each request and for
+                each portlet (processPortletAction, renderPortlet).
+                <p>These methods are normally called during the page aggregation
+                as each portlet is being rendered.</p>
+              </li>
+            </ul>
+          </p>
+					<p>
+            The contract defined by this interface must be fulfilled by the
+            calling party to guarantee that the portlet environment will work
+            correctly.
+          </p>
+        </div>
+        
+        <a name="3.2 Container Services"></a><div class="section"><h3>3.2 Container Services</h3>
+          <p>
+            ContainerServices are a generic plug-in concept for extending the
+            core portlet container with additional functionality.
+            A ContainerService is defined by an interface, accessed by the
+            portlet container and provided by the calling party (mostly
+            portal/framework). In some cases the flow goes in the other
+            direction, from container to portal. The nature of a service can be
+            viewed as a service made available for the portlet container:
+            The container needs it to run, but cannot implement the service
+            itself.
+          </p>
+					<p>
+            The Container Service concept makes the portlet container
+            independent of portal functions so that it can be used by different
+            portals and furthermore new services can be plugged in to get a
+            richer portlet container experience. A ContainerServiceEnvironment
+            describing all services must be created and passed to the portlet
+            environment during initialization.
+          </p>
+          <p>
+            Container Services can be split into two different categories:
+            <ul>
+              <li>
+                <b>Mandatory Base Services</b>
+                <p>ContainerServices that must be provided by the calling party
+                so that the portlet container is able to run.</p>
+                <ul>
+                  <li><b>Information Provider Service:</b> described in the next
+                  sub section</li>
+								  <li><b>Factory Manager Service:</b> Factory Service enables
+                  the portlet container to get implementation objects through a
+                  factory concept.</li>
+                  <li><b>Log Service:</b> This interface defines a logging
+                  facility.</li>
+                </ul>
+              </li>
+              <li>
+                <b>Optional Base Services</b>
+                ContainerServices that can be provided by the calling party,
+                but the container can run without it.
+                <ul>
+                  <li><b>Property Manager Service:</b> The implementation of the
+                  Property Service interface enables a portal to deal with
+                  properties as defined in the JSR 168 specification.</li>
+                  <li><b>Dynamic Title Service:</b> Allows to support dynamic
+                  titles.</li>
+                </ul>
+              </li>
+            </ul>
+          
+          
+          <a name="3.2.1 Information Provider Service"></a><div class="section"><h3>3.2.1 Information Provider Service</h3>
+            
+              The Information Provider is a callback mechanism for the portlet
+              environment into the calling party (mostly framework), to get hold
+              of necessary information that can only be known by the portal,
+              like hostname and URL generation. To differentiate between the
+              scopes of the requested information, the portlet environment
+              defines two interfaces: the DynamicInformationProvider and the
+              StaticInformationProvider.
+            
+            
+              The DynamicInformationProvider provides request-based information,
+              which changes for each request. Consequently a new
+              DynamicInformationProvider needs to be passed to the portlet
+              environment for each request. Typical information provided by this
+              Information Provider is a URL to a portlet. Additional provider
+              interfaces retrieved via getter methods of the
+              DynamicInformationProvider are PortletURLProvider and
+              PortletActionProvider.
+            
+            
+              The StaticInformationProvider on the other hand provides
+              non-request-based information, which is constant across all
+              requests. Therefore only one StaticInformationProvider needs to be
+              provided to the portlet environment (singleton). Typical
+              information provided by this Information Provider is the root
+              context of the portal. An additional provider interface retrieved
+              via a getter method of the StaticInformationProvider is the
+              PortalContextProvider that contains further information about the
+              portal, which need to be provided to the portlet.
+            
+            <p>
+              Both Information Providers are not actively passed by the calling
+              party to the environment. Instead they are made available to the
+              portlet environment through the Container Service mechanism
+              described in the next section. Basically, the portlet environment
+              asks the calling party for an instance of one of the Information
+              Providers and the calling party returns the correct Information
+              Provider.
+            </p>
+          </div>
+          
+          <a name="3.3 Portlet Object Model"></a><div class="section"><h3>3.3 Portlet Object Model</h3>
+						<p>The Portlet Object Model interfaces are defined in the package org.apache.pluto.om. These interfaces should be seen as an internal interface that can be used by other components of the portal. The portlet environment only defines the interfaces that are necessary to execute the object model the portal that uses the portlet environment must implement the object model. </p>
+						<p>The object model represents the information available on different levels about portlets and the portlet application, like the deployment descriptors and customization data. </p>
+						<p>The following definitions are used to represent the different levels of information:</p>
+						<ul>
+							<li>
+								
+									<strong>WebApplicationDefinition</strong> represents the context for the Portlet Application defined in the web.xml deployment descriptor.
+							</li>
+							<li>
+								
+									<strong>PortletApplicationDefinition</strong> describes a set (either all or a subset) of portlets that participate all in the same WebApplicationDefinition.
+							</li>
+							<li>
+								
+									<strong>PortletApplicationEntity</strong> is an instantiation of a PortletApplicationDefinition that is bound to a portal resource. It contains a set (either all or a subset) of portlets that participate all in the same PortletApplicationDefinition.
+							</li>
+							<li>
+								
+									<strong>ServletDefinition</strong> describes the portlet and its initial read-only properties that is not bound to any portal resource.
+							</li>
+							<li>
+								
+									<strong>Portlet Definition</strong> basic settings defined in the portlet.xml or set by administrators (read-only for users).
+							</li>
+							<li>
+								
+									<strong>Portlet Entity</strong> is a parameterized portlet definition, belonging to a user. 
+							</li>
+							<li>
+								
+									<strong>Portlet Window</strong> is part of an aggregation tree that contains the portlet markup. The portlet window has navigational state attached to it.
+								
+							</li>
+						</ul>
+						<p>Figure 3 depicts the relation between the different definitions and their hierarchical structure. The servlet definitions are embedded in the web application definition. From a web application definition several portlet application definitions can be created that may consist of portlet definitions based on the servlet definitions defined in the web application definition. Using the portlet application definition several portlet application entities can be created that include portlet entities that are based on the corresponding portlet definitions. Finally the portlet windows of a portlet entity are linked to their corresponding portlet entity.</p>
+						<div align="center">
+							<p>
+									<a href="../../images/v101/Relations.jpg">
+										<img src="../../images/v101/Relations.jpg" alt="Portal Architecture"></img>
+								</a>
+							</p>
+							<p>
+								<b>
+									<i>Figure 3. Relations between the different application and portlet representations
+									</i>
+								</b>
+							</p>
+						</div>
+						<p>The portlet object model represents these different layers allowing the portlet container to access the information layer-based.</p>
+						<p>The object model is split into four different sub-packages:</p>
+						<ul>
+							<li>
+								common
+								<p>contains generic interfaces that can be reused</p>
+							</li>
+							<li>
+								window
+								<p>contains all interfaces handling with portlet windows</p>
+							</li>
+							<li>
+								entity
+								<p>contains all interfaces handling with portlet application entities and portlet entities</p>
+							</li>
+							<li>
+								portlet
+								<p>contains all interfaces handling with portlet application definitions and portlet definitions</p>
+							</li>
+							<li>
+								servlet
+								<p>contains all interfaces representing the web application definitions and servlet definitions</p>
+							</li>
+						</ul>
+						<p>For the implementation of the different artifacts in the object model the model-view-controller pattern is used and for each artifact a read-only interface exists, and if required an interface with the setter methods and the ending Ctrl is provided.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2001-2007
+    
+          Apache Software Foundation
+          
+  
+
+  
+    
+  
+  
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

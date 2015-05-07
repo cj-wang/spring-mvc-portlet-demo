@@ -1,0 +1,731 @@
+Apr 24, 2015 3:00:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://portals.apache.org/pluto/portlet-el is already defined
+Apr 24, 2015 3:00:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://portals.apache.org/pluto/portlet-el_2_0 is already defined
+Apr 24, 2015 3:00:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/portlet is already defined
+Apr 24, 2015 3:00:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/portlet_2_0 is already defined
+Apr 24, 2015 3:00:15 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+INFO: Starting up Pluto Portal Driver. . .
+Apr 24, 2015 3:00:15 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Apr 24, 2015 3:00:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: Loading Spring root WebApplicationContext
+Apr 24, 2015 3:00:15 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/pluto-portal-driver-services-config.xml]
+Apr 24, 2015 3:00:15 PM org.springframework.context.support.AbstractRefreshableApplicationContext refreshBeanFactory
+INFO: Bean factory for application context [Root WebApplicationContext]: org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [PortletContainer,PlutoServices,PortalDriverServices,PortalContext,DriverConfiguration,AdminConfiguration,ResourceConfigFactory,PortalURLParser,RenderConfigService,SupportedModesService,SupportedWindowStatesService,PortletRequestContextService,EventCoordinationService,FilterManagerService,PortletURLListenerService,PortletContextService,RequestDispatcherService]; root of BeanFactory hierarchy
+Apr 24, 2015 3:00:15 PM org.springframework.context.support.AbstractApplicationContext refresh
+INFO: 17 beans defined in application context [Root WebApplicationContext]
+Apr 24, 2015 3:00:15 PM org.springframework.context.support.AbstractApplicationContext initMessageSource
+INFO: Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@b470897]
+Apr 24, 2015 3:00:15 PM org.springframework.context.support.AbstractApplicationContext initApplicationEventMulticaster
+INFO: Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@35d667b]
+Apr 24, 2015 3:00:15 PM org.springframework.ui.context.support.UiApplicationContextUtils initThemeSource
+INFO: Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@2738c103]
+Apr 24, 2015 3:00:15 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in factory [org.springframework.beans.factory.support.DefaultListableBeanFactory defining beans [PortletContainer,PlutoServices,PortalDriverServices,PortalContext,DriverConfiguration,AdminConfiguration,ResourceConfigFactory,PortalURLParser,RenderConfigService,SupportedModesService,SupportedWindowStatesService,PortletRequestContextService,EventCoordinationService,FilterManagerService,PortletURLListenerService,PortletContextService,RequestDispatcherService]; root of BeanFactory hierarchy]
+Apr 24, 2015 3:00:15 PM org.apache.pluto.driver.services.impl.resource.ResourceConfigReader init
+FINE: Setting up digester...
+Apr 24, 2015 3:00:16 PM org.apache.pluto.container.util.StringManager <init>
+FINE: String Manager Created for package: org.apache.pluto.driver.container
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedModesServiceImpl loadPortalModes
+FINE: Loading supported portal modes...
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedModesServiceImpl loadPortalModes
+FINE: Loading mode [help]
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedModesServiceImpl loadPortalModes
+FINE: Loading mode [view]
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedModesServiceImpl loadPortalModes
+FINE: Loading mode [edit]
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedModesServiceImpl loadPortalModes
+FINE: Loading mode [config]
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedModesServiceImpl loadPortalModes
+FINE: Loaded [4] supported portal modes
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedWindowStateServiceImpl <init>
+FINE: Initializing SupportedWindowStateService... 
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedWindowStateServiceImpl <init>
+FINE: Portal supports [3] window states.  [normal], [maximized], [minimized]
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.services.impl.resource.SupportedWindowStateServiceImpl <init>
+FINE: SupportedWindowStateService initialized.
+Apr 24, 2015 3:00:16 PM org.apache.pluto.container.impl.PortletContainerImpl infoWithName
+INFO: Portlet Container [pluto-portal-driver]: Container initialized successfully.
+Apr 24, 2015 3:00:16 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Using context class [org.springframework.web.context.support.XmlWebApplicationContext] for root WebApplicationContext
+Apr 24, 2015 3:00:16 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 1092 ms
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+FINE:  [1a] Loading DriverConfiguration. . . 
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+FINE:  [1b] Registering DriverConfiguration. . .
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+FINE:  [2a] Loading Optional AdminConfiguration. . .
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+FINE:  [2b] Registering Optional AdminConfiguration
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+INFO: Initializing Portlet Container. . .
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+FINE:  [1] Creating portlet container...
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+INFO: Pluto portlet container started.
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.PortalStartupListener contextInitialized
+INFO: ********** Pluto Portal Driver Started **********
+
+
+Apr 24, 2015 3:00:16 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [281] milliseconds.
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.container.PortletContextManager fireRegistered
+INFO: Portlet Context '/pluto' registered.
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Registered portlet application for context '/pluto'
+Apr 24, 2015 3:00:16 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Registering 3 portlets for context //pluto
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Portlet application for context '/pluto' already registered.
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Portlet application for context '/pluto' already registered.
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager fireRegistered
+INFO: Portlet Context '/testsuite' registered.
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Registered portlet application for context '/testsuite'
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Registering 4 portlets for context //testsuite
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Portlet application for context '/testsuite' already registered.
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Portlet application for context '/testsuite' already registered.
+Apr 24, 2015 3:00:17 PM org.apache.pluto.driver.container.PortletContextManager register
+INFO: Portlet application for context '/testsuite' already registered.
+Apr 24, 2015 3:00:23 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Apr 24, 2015 3:00:24 PM org.apache.jasper.compiler.JDTCompiler$1 findType
+SEVERE: Compilation error
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:372)
+	at org.apache.jasper.compiler.JDTCompiler$1.findType(JDTCompiler.java:220)
+	at org.apache.jasper.compiler.JDTCompiler$1.findType(JDTCompiler.java:176)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:109)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:49)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:122)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeSignature(LookupEnvironment.java:1242)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromVariantTypeSignature(LookupEnvironment.java:1298)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeArgumentsFromSignature(LookupEnvironment.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeSignature(LookupEnvironment.java:1247)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethod(BinaryTypeBinding.java:550)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethods(BinaryTypeBinding.java:630)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.cachePartsFrom(BinaryTypeBinding.java:365)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:684)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:663)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:296)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:49)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:122)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:168)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getPackage(Scope.java:2352)
+	at org.eclipse.jdt.internal.compiler.ast.ParameterizedQualifiedTypeReference.internalResolveLeafType(ParameterizedQualifiedTypeReference.java:138)
+	at org.eclipse.jdt.internal.compiler.ast.ParameterizedQualifiedTypeReference.internalResolveType(ParameterizedQualifiedTypeReference.java:132)
+	at org.eclipse.jdt.internal.compiler.ast.ParameterizedQualifiedTypeReference.resolveType(ParameterizedQualifiedTypeReference.java:340)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.resolveTypeFor(SourceTypeBinding.java:1303)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.fields(SourceTypeBinding.java:698)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.faultInTypesForFieldsAndMethods(SourceTypeBinding.java:676)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:469)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:756)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:468)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:447)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:644)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:358)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:24 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the generated java file
+The type java.util.Map$Entry cannot be resolved. It is indirectly referenced from required .class files
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:644)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:358)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:24 PM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+WARNING: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the generated java file
+The type java.util.Map$Entry cannot be resolved. It is indirectly referenced from required .class files
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:644)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:358)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:41 PM org.apache.jasper.compiler.JDTCompiler$1 findType
+SEVERE: Compilation error
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:372)
+	at org.apache.jasper.compiler.JDTCompiler$1.findType(JDTCompiler.java:220)
+	at org.apache.jasper.compiler.JDTCompiler$1.findType(JDTCompiler.java:176)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:109)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:49)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:122)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeSignature(LookupEnvironment.java:1242)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromVariantTypeSignature(LookupEnvironment.java:1298)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeArgumentsFromSignature(LookupEnvironment.java:1085)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeSignature(LookupEnvironment.java:1247)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethod(BinaryTypeBinding.java:550)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethods(BinaryTypeBinding.java:630)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.cachePartsFrom(BinaryTypeBinding.java:365)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:684)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:663)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:296)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:49)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:122)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:168)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getPackage(Scope.java:2352)
+	at org.eclipse.jdt.internal.compiler.ast.ParameterizedQualifiedTypeReference.internalResolveLeafType(ParameterizedQualifiedTypeReference.java:138)
+	at org.eclipse.jdt.internal.compiler.ast.ParameterizedQualifiedTypeReference.internalResolveType(ParameterizedQualifiedTypeReference.java:132)
+	at org.eclipse.jdt.internal.compiler.ast.ParameterizedQualifiedTypeReference.resolveType(ParameterizedQualifiedTypeReference.java:340)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.resolveTypeFor(SourceTypeBinding.java:1303)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.fields(SourceTypeBinding.java:698)
+	at org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding.faultInTypesForFieldsAndMethods(SourceTypeBinding.java:676)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.faultInTypes(CompilationUnitScope.java:469)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:756)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:468)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:447)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:644)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:358)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:41 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the generated java file
+The type java.util.Map$Entry cannot be resolved. It is indirectly referenced from required .class files
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:644)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:358)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:41 PM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+WARNING: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 1 in the generated java file
+The type java.util.Map$Entry cannot be resolved. It is indirectly referenced from required .class files
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:644)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:358)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+WARNING: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:178)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	... 24 more
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+WARNING: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:178)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	... 24 more
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+WARNING: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:178)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	... 24 more
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:42 PM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+WARNING: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:178)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	... 24 more
+
+Apr 24, 2015 3:00:43 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 24, 2015 3:00:43 PM org.apache.catalina.authenticator.FormAuthenticator forwardToLoginPage
+WARNING: Unexpected error forwarding to login page
+org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:178)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:389)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:333)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:684)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:471)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:402)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:329)
+	at org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage(FormAuthenticator.java:385)
+	at org.apache.catalina.authenticator.FormAuthenticator.authenticate(FormAuthenticator.java:267)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:929)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:405)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:515)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:300)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.jsp.login_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:124)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	... 24 more
+

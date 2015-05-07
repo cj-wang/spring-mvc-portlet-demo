@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WebApp_ID" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee                       http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<display-name>ClockPortlet</display-name>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/applicationContext.xml</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>ViewRendererServlet</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.ViewRendererServlet
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+<servlet>
+<servlet-name>Hello</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Hello</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock-Sydney</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock-Sydney</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock-Melbourne</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock-Melbourne</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock-Brisbane</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock-Brisbane</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock-Perth</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock-Perth</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock-Adelaide</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock-Adelaide</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock-Darwin</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock-Darwin</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>Clock-KualaLumpur</servlet-name>
+<servlet-class>org.apache.pluto.container.driver.PortletServlet</servlet-class>
+<init-param>
+<param-name>portlet-name</param-name>
+<param-value>Clock-KualaLumpur</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ViewRendererServlet</servlet-name>
+		<url-pattern>/WEB-INF/servlet/view</url-pattern>
+	</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Hello</servlet-name>
+<url-pattern>/PlutoInvoker/Hello</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock</servlet-name>
+<url-pattern>/PlutoInvoker/Clock</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock-Sydney</servlet-name>
+<url-pattern>/PlutoInvoker/Clock-Sydney</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock-Melbourne</servlet-name>
+<url-pattern>/PlutoInvoker/Clock-Melbourne</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock-Brisbane</servlet-name>
+<url-pattern>/PlutoInvoker/Clock-Brisbane</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock-Perth</servlet-name>
+<url-pattern>/PlutoInvoker/Clock-Perth</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock-Adelaide</servlet-name>
+<url-pattern>/PlutoInvoker/Clock-Adelaide</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock-Darwin</servlet-name>
+<url-pattern>/PlutoInvoker/Clock-Darwin</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Clock-KualaLumpur</servlet-name>
+<url-pattern>/PlutoInvoker/Clock-KualaLumpur</url-pattern>
+</servlet-mapping>
+
+</web-app>
