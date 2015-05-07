@@ -1,6 +1,10 @@
 # spring-mvc-portlet-demo
 Portlet demos based on spring mvc and pluto 1.1/2.0
 
+test
+test
+test
+
 
 Changes made to Pluto runtime bundle:
 	v1.1:
