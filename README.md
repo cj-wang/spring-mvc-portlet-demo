@@ -1,8 +1,8 @@
 # spring-mvc-portlet-demo
 Portlet demos based on spring mvc and pluto 1.1/2.0
 
-<pre>
 Changes made to Pluto runtime bundle:
+<pre>
 	v1.1:
 		1. add jars to pluto-1.1.0\shared\lib
 			aopalliance-1.0.jar
