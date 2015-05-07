@@ -16,6 +16,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+/**
+ * Controller for Clock Portlet
+ * @author Changjiang.Wang
+ *
+ */
 @Controller
 public class ClockController {
 

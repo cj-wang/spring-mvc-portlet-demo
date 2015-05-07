@@ -7,6 +7,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * Controller for Hello Portlet
+ * @author Changjiang.Wang
+ *
+ */
 @Controller
 public class HelloController {
 
