@@ -1,11 +1,7 @@
 # spring-mvc-portlet-demo
 Portlet demos based on spring mvc and pluto 1.1/2.0
 
-test
-test
-test
-
-
+<pre>
 Changes made to Pluto runtime bundle:
 	v1.1:
 		1. add jars to pluto-1.1.0\shared\lib
@@ -53,7 +49,7 @@ Changes made to Pluto runtime bundle:
 			spring-core-2.0.2.jar
 			spring-web-2.0.2.jar
 			standard-1.1.2.jar
-	
+</pre>
 	
 	
 	
